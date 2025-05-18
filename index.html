@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>YummyExam</title>
+
+  <!-- Fonts & Icons -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+  <link rel="stylesheet" href="./css/all.min.css" />
+  <link rel="stylesheet" href="./css/bootstrap.min.css" />
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="./css/index.css" />
+</head>
+<body>
+<div class="spinner top-0 start-0 end-0 bottom-0  justify-content-center align-items-center position-fixed bg-black vh-100 vw-100" style="display: none;" >
+        <i class="fa fa-spinner fa-spin fa-5x"></i>
+</div>
+      
+  <!-- sidebar header -->
+<header class="main-header text-center d-flex align-items-center justify-content-between flex-column position-fixed top-0 vh-100 bg-white">
+  
+  <div class="top-logo">
+    <img class="logo" src="images/logo.png" alt="Logo" />
+  </div>
+  <div class="menu-icons">
+    <i id="menu-icon" class="fa-solid fa-bars fa-2x "></i>
+    <i id="close-icon" class="fa-solid fa-x fa-2x " style="display: none;"></i>
+  </div>
+
+  
+  <div class="bottom-icons">
+    <i class="fa-solid fa-globe d-block"></i>
+    <i class="fa-solid fa-share-nodes"></i>
+  </div>
+</header>
+
+
+  <!-- sidebar -->
+  <div id="side-nav" class="side-nav-menu position-fixed top-0 bg-black vh-100 text-white">
+    <div class="nav-tab d-flex flex-column justify-content-between p-4 h-100">
+      <div class="links">
+        <ul class="list-unstyled">
+          <li onclick="closeSideNav()" id="search">Search</li>
+          <li onclick="closeSideNav();" id="Categories">Categories</li>
+          <li onclick="closeSideNav();" id="area">Area</li>
+          <li onclick="closeSideNav();" id="ingradients">Ingredients</li>
+          <li onclick="closeSideNav()" id="contact">Contact Us</li>
+        </ul>
+      </div>
+      <div class="nav-footer">
+        <div class="icons">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-solid fa-globe"></i>
+        </div>
+        <div class="footer">
+          <p class="text-white">Copyright © 2019 All Rights Reserved.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+  
+ <div class="container w-75 mt-0" id="searchContainer"></div>
+    
+ <div class="container my-5 w-75">
+ 
+  <div class="container">
+
+
+    <div class="row " id="content-container">
+      
+      <!-- Content -->
+      
+      
+    </div>
+     
+  </div>
+      <!-- <div id="meal-details" class="my-5"></div> -->
+</div>
+
+
+
+  <!-- JS Scripts -->
+  <script src="./js/bootstrap.bundle.min.js"></script>
+  <script src="./js/jquery-3.7.1.min.js"></script>
+  <script src="./js/index.js"></script>
+</body>
+</html>

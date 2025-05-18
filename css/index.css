@@ -1,0 +1,90 @@
+
+body {
+  background-color: black;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/* sidebar header */
+.main-header {
+ 
+  padding-inline:5px;
+  padding-block: 15px;
+  z-index: 1001;
+  transition: transform 0.3s ease; 
+}
+.header-shift {
+  transform: translateX(250px); 
+}
+.logo {
+  width: 40px;
+  margin-bottom: auto;
+}
+.menu-icons i {
+  cursor: pointer;
+}
+/* sidebar */
+.side-nav-menu {
+ 
+  left: -250px;
+  width: 250px;
+  transition: left 0.3s ease;
+  z-index: 1000;
+}
+.nav-tab ul li {
+  padding: 5px 0;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+
+
+.nav-footer {
+  padding-top: 20px;
+}
+
+.nav-footer .icons i {
+  /* margin-right: 2px; */
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.footer p {
+  font-size: 13px;
+  /* margin-top: 10px; */
+}
+
+.meal-container {
+  cursor: pointer;
+}
+
+.meal-layer {
+  background-color: rgba(255, 255, 255, 0.8);
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+  top: 100%;
+  /* height: 100%; */
+}
+
+.meal-container:hover .meal-layer {
+  opacity: 1;
+  top: 0;
+}
+
+.spinner {
+  z-index: 9999;
+  display: flex;
+
+}
+#searchContainer input::placeholder {
+  color: gray;
+  font-size: 15px;
+}
+#side-nav ul li {
+  position: relative;
+}
+#side-nav ul li {
+    transition: transform 0.3s ease; /* Smooth transition */
+}

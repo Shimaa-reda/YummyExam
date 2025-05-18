@@ -1,0 +1,46 @@
+
+
+@media (max-width:767px) {
+    .navbar ul {
+  
+        margin-top: 15px;
+       
+        
+       }
+    .navbar ul li {
+  
+       background-color: #262936;
+       text-align: center;
+       border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+       padding: 7px;
+      
+       
+      }
+      .navbar-toggler{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        border: 2px solid transparent;
+       
+
+      }
+      .navbar-toggler:hover{
+
+        border: 2px solid #009ad8;
+        color: #009ad8 !important;
+        
+      }
+      .navbar-toggler i
+      {
+        
+        border: none;
+      }
+      .navbar-toggler i:hover
+      {
+        color: #009ad8 !important;
+      }
+      .footer p{
+        margin-top: 0 !important;
+        padding: 10px;
+      }
+}
