@@ -469,10 +469,10 @@ function showContacts() {
     </div>
   `;
 
-  // تعريف الـ submitBtn
+  // 
   submitBtn = document.getElementById("submitBtn");
 
-  // تفعيل الـ touched flags على التركيز
+  // 
   nameInputTouched = emailInputTouched = phoneInputTouched = ageInputTouched = passwordInputTouched = repasswordInputTouched = false;
 
   document.getElementById("nameInput").addEventListener("focus", () => nameInputTouched = true);
