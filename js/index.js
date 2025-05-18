@@ -175,7 +175,7 @@ function showMealDetails(meal) {
             </div>
             <div class="col-md-8 text-white">
                 <h2>Instructions</h2>
-                <p class="" style="font-size:13px">${meal.strInstructions}</p>
+                <p class="p-2" style="font-size:13.5px">${meal.strInstructions}</p>
                 <h3><span class="fw-bolder">Area : </span>${meal.strArea}</h3>
                 <h3><span class="fw-bolder">Category : </span>${meal.strCategory}</h3>
                 <h3>Recipes :</h3>
