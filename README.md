@@ -4,7 +4,7 @@ YummyExam is a web application that allows users to browse and discover deliciou
 
 ## 🚀 Live Demo
 
-[🔗 View Live Project](#) <!-- ضع هنا رابط ال GitHub Pages لو هترفعه -->
+[🔗 View Live Project](#) https://shimaa-reda.github.io/YummyExam/
 
 ## 🖼️ Features
 
