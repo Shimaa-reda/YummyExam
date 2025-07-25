@@ -27,5 +27,4 @@ YummyExam is a web application that allows users to browse and discover deliciou
 
 - [TheMealDB API](https://www.themealdb.com/api.php)
 
-## 📁 Project Structure
 
